@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0235D5263C9DF5ECE9A8277C /* CakeLooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E6F54784CE49FBBBAD0DA /* CakeLooks.swift */; };
+		08FFDB5CFDE1C99EF9EDDE51 /* CakeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DF686F62CCF862D087D6ED /* CakeLayout.swift */; };
+		0E7E5DCD6BD5A81421C916A8 /* Flame.metal in Sources */ = {isa = PBXBuildFile; fileRef = 408F023BA1560C085FC7AE8D /* Flame.metal */; };
+		17FC8A78AD1EF44C16E1257C /* MemoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDFC9C7F39DD2E6BCAC4C99 /* MemoryCardView.swift */; };
+		2889310B77A9C206C3F15F1D /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1255A386C00B9B39B7CBAB6F /* SetupView.swift */; };
+		2891E64AEA148B983AA93240 /* Candles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB0B5F7020D7028A0B09377 /* Candles.swift */; };
+		48E82844843ECC744F0C086E /* SongPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA96F3C0B5520DF06D3BF2 /* SongPlayer.swift */; };
+		59B219608D6C9912DFB50262 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C257B8C6FDCAAFE61FF038 /* MotionManager.swift */; };
+		61B62F3460AD8C30FE002DBE /* CeremonyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBAA25891E994AAE1C9532D8 /* CeremonyModel.swift */; };
+		620B24910C899A7C6D444067 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A2A02AE8E77AC3B25CEFFB /* StoreManager.swift */; };
+		722AD37B1281BDDB7D666EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D374975FB7B9B6F3ED65502 /* Assets.xcassets */; };
+		7E1A9C4B2D5F8063A4B7C9D1 /* Typeface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B6D2A9C4E1750B8A3D6F2 /* Typeface.swift */; };
+		85D2B9F5F79F038EE89AAD0A /* CeremonyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ECF7D1BBFC9287AD68D46F /* CeremonyView.swift */; };
+		866BB44299C055B0317EC985 /* CakePainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60477F282DDE6F150D05E857 /* CakePainter.swift */; };
+		8DED2DB3AA4AB9D682C251AD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1622892EA0DB01F179EF08 /* Theme.swift */; };
+		A2B919C5FDA2FC6005B9720B /* CakeStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB39F6633E18374317506E5 /* CakeStage.swift */; };
+		AEE9AB966CEF243029B4572A /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD15619DA989D891C9C6839 /* Birthday.swift */; };
+		C1C92C862D13E8D00EE90C3F /* BlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECFE4FA10BB31799A796013 /* BlowApp.swift */; };
+		C9483344F620911D03CC0BE4 /* HappyBirthdayScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528987FDDD6ABA86FF3F0CF9 /* HappyBirthdayScore.swift */; };
+		B32435465768798A9BACBDCE /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C435465768798A9BACBDCEF0 /* NotificationDelegate.swift */; };
+		DBB479165C47BC44F0E75CAA /* Synth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6FABAF8BBFA089B5A291D /* Synth.swift */; };
+		5D6E7F809102132435465768 /* BirthdayLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7F80910213243546576879 /* BirthdayLibrary.swift */; };
+		7F809102132435465768798A /* ReminderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809102132435465768798A9B /* ReminderManager.swift */; };
+		9102132435465768798A9BAC /* BirthdayLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2132435465768798A9BACD /* BirthdayLibraryView.swift */; };
+		19293B4C5D6E7F8091021324 /* StickerEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B4C5D6E7F809102132435 /* StickerEditor.swift */; };
+		3B4C5D6E7F80910213243546 /* StickerPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5D6E7F8091021324354657 /* StickerPicker.swift */; };
+		C3D4E5F6A70819293B4C5D6E /* StickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5F6A70819293B4C5D6E7F /* StickerModel.swift */; };
+		E5F6A70819293B4C5D6E7F80 /* StickerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A70819293B4C5D6E7F8091 /* StickerLayer.swift */; };
+		A70819293B4C5D6E7F809102 /* StickerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B819293B4C5D6E7F80910213 /* StickerStore.swift */; };
+		A1B2C3D4E5F60718293A4B5C /* SongLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F60718293A4B5C6D /* SongLibrary.swift */; };
+		E0A565FCB778C61039AB9E7E /* BlowDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56200F6F4338FAF38448C034 /* BlowDetector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04DA96F3C0B5520DF06D3BF2 /* SongPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPlayer.swift; sourceTree = "<group>"; };
+		0E1622892EA0DB01F179EF08 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		10DF686F62CCF862D087D6ED /* CakeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeLayout.swift; sourceTree = "<group>"; };
+		1255A386C00B9B39B7CBAB6F /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		1BB0B5F7020D7028A0B09377 /* Candles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candles.swift; sourceTree = "<group>"; };
+		22ECF7D1BBFC9287AD68D46F /* CeremonyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeremonyView.swift; sourceTree = "<group>"; };
+		3BD15619DA989D891C9C6839 /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
+		3F8B6D2A9C4E1750B8A3D6F2 /* Typeface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typeface.swift; sourceTree = "<group>"; };
+		408F023BA1560C085FC7AE8D /* Flame.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Flame.metal; sourceTree = "<group>"; };
+		4D374975FB7B9B6F3ED65502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		528987FDDD6ABA86FF3F0CF9 /* HappyBirthdayScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirthdayScore.swift; sourceTree = "<group>"; };
+		C435465768798A9BACBDCEF0 /* NotificationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		56200F6F4338FAF38448C034 /* BlowDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlowDetector.swift; sourceTree = "<group>"; };
+		60477F282DDE6F150D05E857 /* CakePainter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakePainter.swift; sourceTree = "<group>"; };
+		79C257B8C6FDCAAFE61FF038 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		7B6E6F54784CE49FBBBAD0DA /* CakeLooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeLooks.swift; sourceTree = "<group>"; };
+		9A63106CFAE5AE6265D2D156 /* Blow.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Blow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDFC9C7F39DD2E6BCAC4C99 /* MemoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCardView.swift; sourceTree = "<group>"; };
+		CAD6FABAF8BBFA089B5A291D /* Synth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synth.swift; sourceTree = "<group>"; };
+		6E7F80910213243546576879 /* BirthdayLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayLibrary.swift; sourceTree = "<group>"; };
+		809102132435465768798A9B /* ReminderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderManager.swift; sourceTree = "<group>"; };
+		A2132435465768798A9BACD /* BirthdayLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayLibraryView.swift; sourceTree = "<group>"; };
+		293B4C5D6E7F809102132435 /* StickerEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerEditor.swift; sourceTree = "<group>"; };
+		4C5D6E7F8091021324354657 /* StickerPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPicker.swift; sourceTree = "<group>"; };
+		D4E5F6A70819293B4C5D6E7F /* StickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerModel.swift; sourceTree = "<group>"; };
+		F6A70819293B4C5D6E7F8091 /* StickerLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerLayer.swift; sourceTree = "<group>"; };
+		B819293B4C5D6E7F80910213 /* StickerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerStore.swift; sourceTree = "<group>"; };
+		B2C3D4E5F60718293A4B5C6D /* SongLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongLibrary.swift; sourceTree = "<group>"; };
+		D7A2A02AE8E77AC3B25CEFFB /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		DECFE4FA10BB31799A796013 /* BlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlowApp.swift; sourceTree = "<group>"; };
+		FBAA25891E994AAE1C9532D8 /* CeremonyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeremonyModel.swift; sourceTree = "<group>"; };
+		FBB39F6633E18374317506E5 /* CakeStage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeStage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		064C538840A603EC5D94E49D /* Cake */ = {
+			isa = PBXGroup;
+			children = (
+				10DF686F62CCF862D087D6ED /* CakeLayout.swift */,
+				7B6E6F54784CE49FBBBAD0DA /* CakeLooks.swift */,
+				60477F282DDE6F150D05E857 /* CakePainter.swift */,
+				1BB0B5F7020D7028A0B09377 /* Candles.swift */,
+			);
+			path = Cake;
+			sourceTree = "<group>";
+		};
+		0FA731F2F4ED7C5AFB1D3500 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				BDDFC9C7F39DD2E6BCAC4C99 /* MemoryCardView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		111D2593A57BC3D6B62862AC /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				528987FDDD6ABA86FF3F0CF9 /* HappyBirthdayScore.swift */,
+				04DA96F3C0B5520DF06D3BF2 /* SongPlayer.swift */,
+				CAD6FABAF8BBFA089B5A291D /* Synth.swift */,
+				B2C3D4E5F60718293A4B5C6D /* SongLibrary.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		229D33BA0BE9A3F645423E8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BD15619DA989D891C9C6839 /* Birthday.swift */,
+				6E7F80910213243546576879 /* BirthdayLibrary.swift */,
+				809102132435465768798A9B /* ReminderManager.swift */,
+				3F8B6D2A9C4E1750B8A3D6F2 /* Typeface.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		324B4922A8D57E955C2C6906 /* Sensors */ = {
+			isa = PBXGroup;
+			children = (
+				56200F6F4338FAF38448C034 /* BlowDetector.swift */,
+				79C257B8C6FDCAAFE61FF038 /* MotionManager.swift */,
+			);
+			path = Sensors;
+			sourceTree = "<group>";
+		};
+		3FF70826989F4F30C324211E /* Blow */ = {
+			isa = PBXGroup;
+			children = (
+				4D374975FB7B9B6F3ED65502 /* Assets.xcassets */,
+				83B14ADD2D6DA60BC05608C7 /* App */,
+				111D2593A57BC3D6B62862AC /* Audio */,
+				C92D3E4F5A6B7C8D9E0F1A2B /* Stickers */,
+				064C538840A603EC5D94E49D /* Cake */,
+				0FA731F2F4ED7C5AFB1D3500 /* Card */,
+				F8936E4DC9BA54208BA22C37 /* Ceremony */,
+				229D33BA0BE9A3F645423E8D /* Models */,
+				324B4922A8D57E955C2C6906 /* Sensors */,
+				B53DF755B76A26BF8FDAEB56 /* Setup */,
+				54561F41CBD3AF1059612A99 /* Shaders */,
+				6BE9BEBD6A7BE4449F43F260 /* Store */,
+			);
+			path = Blow;
+			sourceTree = "<group>";
+		};
+		54561F41CBD3AF1059612A99 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				408F023BA1560C085FC7AE8D /* Flame.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		55CED8A276518065B22709C6 = {
+			isa = PBXGroup;
+			children = (
+				3FF70826989F4F30C324211E /* Blow */,
+				EA666E9EC7C40573D5EEE6A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BE9BEBD6A7BE4449F43F260 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				D7A2A02AE8E77AC3B25CEFFB /* StoreManager.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		83B14ADD2D6DA60BC05608C7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DECFE4FA10BB31799A796013 /* BlowApp.swift */,
+				C435465768798A9BACBDCEF0 /* NotificationDelegate.swift */,
+				0E1622892EA0DB01F179EF08 /* Theme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B53DF755B76A26BF8FDAEB56 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				1255A386C00B9B39B7CBAB6F /* SetupView.swift */,
+				A2132435465768798A9BACD /* BirthdayLibraryView.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		EA666E9EC7C40573D5EEE6A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A63106CFAE5AE6265D2D156 /* Blow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8936E4DC9BA54208BA22C37 /* Ceremony */ = {
+			isa = PBXGroup;
+			children = (
+				FBB39F6633E18374317506E5 /* CakeStage.swift */,
+				FBAA25891E994AAE1C9532D8 /* CeremonyModel.swift */,
+				22ECF7D1BBFC9287AD68D46F /* CeremonyView.swift */,
+			);
+			path = Ceremony;
+			sourceTree = "<group>";
+		};
+		C92D3E4F5A6B7C8D9E0F1A2B /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				D4E5F6A70819293B4C5D6E7F /* StickerModel.swift */,
+				F6A70819293B4C5D6E7F8091 /* StickerLayer.swift */,
+				B819293B4C5D6E7F80910213 /* StickerStore.swift */,
+				293B4C5D6E7F809102132435 /* StickerEditor.swift */,
+				4C5D6E7F8091021324354657 /* StickerPicker.swift */,
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		644676EEDFEB9BEBA858215A /* Blow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DBDE8C2DD89380D33BADF0D /* Build configuration list for PBXNativeTarget "Blow" */;
+			buildPhases = (
+				71E55B0C5C2EF5A311F103D6 /* Sources */,
+				6B2241C9C63DFC4FEC6931F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blow;
+			packageProductDependencies = (
+			);
+			productName = Blow;
+			productReference = 9A63106CFAE5AE6265D2D156 /* Blow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B94B8DED6D9B54EE819A7EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 4227DABCEECA38F76E2259EA /* Build configuration list for PBXProject "Blow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 55CED8A276518065B22709C6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EA666E9EC7C40573D5EEE6A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644676EEDFEB9BEBA858215A /* Blow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B2241C9C63DFC4FEC6931F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722AD37B1281BDDB7D666EFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E55B0C5C2EF5A311F103D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE9AB966CEF243029B4572A /* Birthday.swift in Sources */,
+				C1C92C862D13E8D00EE90C3F /* BlowApp.swift in Sources */,
+				E0A565FCB778C61039AB9E7E /* BlowDetector.swift in Sources */,
+				08FFDB5CFDE1C99EF9EDDE51 /* CakeLayout.swift in Sources */,
+				0235D5263C9DF5ECE9A8277C /* CakeLooks.swift in Sources */,
+				866BB44299C055B0317EC985 /* CakePainter.swift in Sources */,
+				A2B919C5FDA2FC6005B9720B /* CakeStage.swift in Sources */,
+				2891E64AEA148B983AA93240 /* Candles.swift in Sources */,
+				61B62F3460AD8C30FE002DBE /* CeremonyModel.swift in Sources */,
+				85D2B9F5F79F038EE89AAD0A /* CeremonyView.swift in Sources */,
+				0E7E5DCD6BD5A81421C916A8 /* Flame.metal in Sources */,
+				C9483344F620911D03CC0BE4 /* HappyBirthdayScore.swift in Sources */,
+				B32435465768798A9BACBDCE /* NotificationDelegate.swift in Sources */,
+				17FC8A78AD1EF44C16E1257C /* MemoryCardView.swift in Sources */,
+				59B219608D6C9912DFB50262 /* MotionManager.swift in Sources */,
+				2889310B77A9C206C3F15F1D /* SetupView.swift in Sources */,
+				48E82844843ECC744F0C086E /* SongPlayer.swift in Sources */,
+				620B24910C899A7C6D444067 /* StoreManager.swift in Sources */,
+				DBB479165C47BC44F0E75CAA /* Synth.swift in Sources */,
+				5D6E7F809102132435465768 /* BirthdayLibrary.swift in Sources */,
+				7F809102132435465768798A /* ReminderManager.swift in Sources */,
+				9102132435465768798A9BAC /* BirthdayLibraryView.swift in Sources */,
+				19293B4C5D6E7F8091021324 /* StickerEditor.swift in Sources */,
+				3B4C5D6E7F80910213243546 /* StickerPicker.swift in Sources */,
+				C3D4E5F6A70819293B4C5D6E /* StickerModel.swift in Sources */,
+				E5F6A70819293B4C5D6E7F80 /* StickerLayer.swift in Sources */,
+				A70819293B4C5D6E7F809102 /* StickerStore.swift in Sources */,
+				A1B2C3D4E5F60718293A4B5C /* SongLibrary.swift in Sources */,
+				8DED2DB3AA4AB9D682C251AD /* Theme.swift in Sources */,
+				7E1A9C4B2D5F8063A4B7C9D1 /* Typeface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		281480C614DB349B3B43632E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C10D1D57C13446B63A52E77D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CBAAC5BAA0BD86B8877A1167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Blow;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Blow listens for your breath so you can blow out the candles. Nothing is recorded.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Blow uses motion so the candle flames sway as you move the phone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.blow.Blow;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6095EB8F112DEA9852CAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Blow;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Blow listens for your breath so you can blow out the candles. Nothing is recorded.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Blow uses motion so the candle flames sway as you move the phone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.blow.Blow;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4227DABCEECA38F76E2259EA /* Build configuration list for PBXProject "Blow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C10D1D57C13446B63A52E77D /* Debug */,
+				281480C614DB349B3B43632E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5DBDE8C2DD89380D33BADF0D /* Build configuration list for PBXNativeTarget "Blow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAAC5BAA0BD86B8877A1167 /* Debug */,
+				ED6095EB8F112DEA9852CAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B94B8DED6D9B54EE819A7EB /* Project object */;
+}
